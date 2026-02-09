@@ -35,17 +35,22 @@ learn-go/
    - How Go compilation differs from interpreted languages
    - Static linking and runtime bundling
 
+2. **[Values & Basic Data Types](wiki/concepts/02-values.md)** (`examples/02-values.go`)
+   - String concatenation and operations
+   - Numeric arithmetic (integers vs floats)
+   - Boolean logic operations
+
 ### 🚧 Planned Concepts
 
-2. **Variables & Types**
-3. **Control Flow**
-4. **Functions**
-5. **Structs & Methods**
-6. **Interfaces**
-7. **Goroutines & Channels**
-8. **Error Handling**
-9. **Packages & Modules**
-10. **Testing**
+3. **Variables & Types**
+4. **Control Flow**
+5. **Functions**
+6. **Structs & Methods**
+7. **Interfaces**
+8. **Goroutines & Channels**
+9. **Error Handling**
+10. **Packages & Modules**
+11. **Testing**
 
 ## How to Use This Guide
 

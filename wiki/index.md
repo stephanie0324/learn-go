@@ -11,9 +11,14 @@ Welcome to your personal Go learning wiki! This is where you document your journ
    - Why Go binaries are self-contained
    - Comparison with interpreted languages
 
+2. **[Values & Basic Data Types](concepts/02-values.md)**
+   - String concatenation and operations
+   - Numeric arithmetic (integers vs floats)
+   - Boolean logic operations
+
 ### Coming Soon
 
-2. Variables & Types
+3. Variables & Types
 3. Control Flow (if, for, switch)
 4. Functions & Methods
 5. Structs & Interfaces
