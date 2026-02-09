@@ -6,7 +6,7 @@ A structured learning journey through Go programming, organized by concepts with
 
 Each concept in Go is organized into:
 - **Code Example**: Practical Go file in `examples/`
-- **Wiki Page**: Detailed explanation, Q&A, and deep dive in `wiki/concepts/`
+- **Wiki Page**: Detailed explanation, Q&A, and deep dive in the [GitHub Wiki](https://github.com/stephanie0324/learn-go/wiki)
 - **Questions & Notes**: Real questions asked during learning with comprehensive answers
 
 ## Structure
@@ -15,27 +15,25 @@ Each concept in Go is organized into:
 learn-go/
 ├── examples/           # Go code files for each concept
 │   ├── 01-hello-world.go
-│   ├── 02-variables.go
+│   ├── 02-values.go
 │   └── ...
-├── wiki/
-│   └── concepts/       # Detailed explanations and Q&A
-│       ├── 01-hello-world.md
-│       ├── 02-variables.md
-│       └── ...
 ├── go.mod             # Go module file
 └── README.md          # This guide
+
+# Detailed explanations and Q&A are in the GitHub Wiki:
+# https://github.com/stephanie0324/learn-go/wiki
 ```
 
 ## Learning Path
 
 ### ✅ Completed Concepts
 
-1. **[Hello World & Go Binaries](wiki/concepts/01-hello-world.md)** (`examples/01-hello-world.go`)
+1. **[Hello World & Go Binaries](https://github.com/stephanie0324/learn-go/wiki/01-Hello-World)** (`examples/01-hello-world.go`)
    - Why Go binaries run without the Go runtime installed
    - How Go compilation differs from interpreted languages
    - Static linking and runtime bundling
 
-2. **[Values & Basic Data Types](wiki/concepts/02-values.md)** (`examples/02-values.go`)
+2. **[Values & Basic Data Types](https://github.com/stephanie0324/learn-go/wiki/02-Values)** (`examples/02-values.go`)
    - String concatenation and operations
    - Numeric arithmetic (integers vs floats)
    - Boolean logic operations
@@ -56,7 +54,7 @@ learn-go/
 
 1. **Start with the code**: Look at the example in `examples/`
 2. **Run the code**: Build and execute to see it in action
-3. **Read the wiki**: Dive deep into the concept with `wiki/concepts/`
+3. **Read the wiki**: Dive deep into the concept in the [GitHub Wiki](https://github.com/stephanie0324/learn-go/wiki)
 4. **Ask questions**: Add your own questions and notes to the wiki pages
 5. **Experiment**: Modify the examples to test your understanding
 
@@ -77,9 +75,9 @@ go build examples/01-hello-world.go
 
 ## Contributing to Your Own Learning
 
-- Add new questions to existing concept pages
-- Create new concept pages as you learn
-- Include code snippets and examples
+- Add new questions to existing concept pages in the [GitHub Wiki](https://github.com/stephanie0324/learn-go/wiki)
+- Create new concept pages as you learn (use the wiki's "New Page" button)
+- Include code snippets and examples in your wiki pages
 - Document "aha!" moments and confusing points
 - Reference line numbers in code when asking questions
 
